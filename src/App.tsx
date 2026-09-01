@@ -8,8 +8,8 @@ import { RobotList } from './components/RobotList';
 import { ControlPanel } from './components/ControlPanel';
 import { RobotDetailModal } from './components/RobotDetailModal';
 
-const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:4000';
-const WS_URL = (import.meta as any).env?.VITE_WS_URL || 'ws://localhost:4000/ws';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'https://peppermint-backend-x8h1.onrender.com';
+const WS_URL = (import.meta as any).env?.VITE_WS_URL || 'wss://peppermint-backend-x8h1.onrender.com/ws';
 
 export const App: React.FC = () => {
   const [connectionStatus, setConnectionStatus] = useState<ConnectionStatus>('DISCONNECTED');
