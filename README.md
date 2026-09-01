@@ -2,6 +2,11 @@
 
 This is the frontend for the SDE-1 hiring challenge. It's a real-time operator dashboard that shows a live map of autonomous robots, lets you filter and inspect them, and gives you trend charts over time.
 
+## 🚀 Live Production URLs
+
+- **Live Dashboard (Frontend):** https://peppermint-frontend.vercel.app
+- **Production Backend API:** https://peppermint-backend-x8h1.onrender.com
+
 ---
 
 ## What it shows
